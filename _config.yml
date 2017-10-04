@@ -16,8 +16,8 @@
 title: Davide Magrin
 description: >- # this means to ignore newlines until "baseurl:"
   Davide Magrin's personal website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://magr.in/"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://magr.in"
 
 # Build settings
 markdown: kramdown
