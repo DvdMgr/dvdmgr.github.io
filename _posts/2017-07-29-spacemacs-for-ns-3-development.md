@@ -2,7 +2,6 @@
 layout: post
 title:  "Spacemacs for ns-3 development"
 date:   2017-07-29
-categories: ns-3 spacemacs
 ---
 
 I've been using [Spacemacs][spacemacs] as my editor of choice for a while now,
