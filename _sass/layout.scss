@@ -112,14 +112,15 @@
 }
 
 #container {
-	margin:0 auto;
 	max-width: 730px;
-	padding: 0 1.5rem;
+	padding: 0 1.5rem 60px 1.5rem;
+  position: relative;
+  margin: 0 auto;
 }
 
 #header {
 	text-align: center;
-  padding: 24px 0;
+  padding: 44px 0;
   position: relative;
   a {
   	text-decoration: none;
@@ -250,5 +251,15 @@ footer {
   background-color: $main-color;
   color: $background-color;
   text-align: center;
-  padding: 0.6667em 0;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  line-height: 60px;
+}
+
+#wrap {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 30px;
 }
