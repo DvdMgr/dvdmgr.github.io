@@ -1,0 +1,37 @@
+/* General layout */
+body {
+    max-width: 600px;
+    margin: auto;
+    border-width: thin medium;
+}
+
+/* Headers */
+h1 {
+
+}
+
+/* Bio */
+#bio {
+    color: #888888;
+}
+
+hr {
+    width: inherit;
+    margin: 0px;
+}
+
+/* Links */
+a {
+    color: #0645ad;
+}
+a:visited {
+    color: #0b0080;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+}
+li {
+    margin-bottom: 10px;
+}
