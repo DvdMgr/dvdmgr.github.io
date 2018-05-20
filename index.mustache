@@ -22,22 +22,19 @@
 
         <h4>Publications</h4>
         <ul>
+            {{#publications}}
             <li>
-                D. Magrin, M. Centenaro and L. Vangelista,
+                {{authors}},
                 <br>
-                "Performance evaluation of LoRa networks in a smart city scenario,"
+                "{{title}},"
                 <br>
-                2017 IEEE International Conference on Communications (ICC), Paris.
+                {{howpublished}}{{#place}}, {{place}}{{/place}}.
+                {{#doi}}
                 <br>
-                DOI: <a href="https://ieeexplore.ieee.org/document/7996384/">10.1109/ICC.2017.7996384</a>.
+                DOI: <a href="{{doi_link}}">{{doi}}</a>.
+                {{/doi}}
             </li>
-            <li>
-                M. Capuzzo, D. Magrin and A. Zanella,
-                <br>
-                "Confirmed Traffic in LoRaWAN: Pitfalls and Countermeasures,"
-                <br>
-                2018 17th Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net), Capri.
-            </li>
+            {{/publications}}
         </ul>
 
         <hr/>
@@ -47,6 +44,11 @@
         <!--
         <h4>Blog posts</h4>
         <ul>
+            {{#posts}}
+                <li>
+                    <a href="./{{url}}.html">{{title}}</a>
+                </li>
+            {{/posts}}
         </ul>
 
         <hr/>
