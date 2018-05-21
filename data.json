@@ -14,5 +14,12 @@
             "howpublished": "2018 17th Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net)",
             "place": "Capri"
         }
+    ],
+    "posts" : [
+        {
+            "title": "Spacemacs for ns-3 development",
+            "permalink": "spacemacs",
+            "date": "2018-05-21"
+        }
     ]
 }
