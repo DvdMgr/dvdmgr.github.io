@@ -18,7 +18,7 @@
     "posts" : [
         {
             "title": "Spacemacs for ns-3 development",
-            "permalink": "spacemacs",
+            "permalink": "spacemacs-ns3",
             "date": "2018-05-21"
         }
     ]
