@@ -32,3 +32,8 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
+/* Code blocks */
+pre {
+    overflow-x:auto;
+}
