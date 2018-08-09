@@ -20,7 +20,7 @@
       "authors": "M. Capuzzo, D. Magrin and A. Zanella",
       "title": "Mathematical Modeling of LoRaWAN Performance with Bi-directional Traffic",
       "howpublished": "2018 IEEE Global Communications Conference (Globecom)",
-      "place": "Abu Dhabi, United Arab Emirates"
+      "place": "Abu Dhabi"
     }
   ],
   "posts" : [
@@ -28,6 +28,16 @@
       "title": "Spacemacs for ns-3 development",
       "permalink": "spacemacs-ns3",
       "date": "2018-05-21"
+    }
+  ],
+  "projects": [
+    {
+      "title": "A Simulation Execution Manager for ns-3",
+      "permalink": "https://github.com/DvdMgr/sem"
+    },
+    {
+      "title": "LoRaWAN ns-3 module",
+      "permalink": "https://github.com/signetlabdei/lorawan"
     }
   ]
 }
