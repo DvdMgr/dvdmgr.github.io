@@ -5,22 +5,21 @@
       "title": "Performance evaluation of LoRa networks in a smart city scenario",
       "howpublished": "2017 IEEE International Conference on Communications (ICC)",
       "place": "Paris",
-      "doi": "10.1109/ICC.2017.7996384",
-      "doi_link": "https://ieeexplore.ieee.org/document/7996384/"
+      "doi": "10.1109/ICC.2017.7996384"
     },
     {
       "authors": "M. Capuzzo, D. Magrin and A. Zanella",
       "title": "Confirmed Traffic in LoRaWAN: Pitfalls and Countermeasures",
       "howpublished": "2018 17th Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net)",
       "place": "Capri",
-      "doi": "10.23919/MedHocNet.2018.8407095",
-      "doi_link": "https://doi.org/10.23919/MedHocNet.2018.8407095"
+      "doi": "10.23919/MedHocNet.2018.8407095"
     },
     {
       "authors": "M. Capuzzo, D. Magrin and A. Zanella",
       "title": "Mathematical Modeling of LoRaWAN Performance with Bi-directional Traffic",
       "howpublished": "2018 IEEE Global Communications Conference (Globecom)",
-      "place": "Abu Dhabi"
+      "place": "Abu Dhabi",
+      "doi": "10.1109/GLOCOM.2018.8647351"
     }
   ],
   "posts" : [
