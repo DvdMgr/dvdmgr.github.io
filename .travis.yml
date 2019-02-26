@@ -1,6 +1,6 @@
 branches:
   only:
-  - gh-pages
+  - master
 install: gem install mustache
 script: make
 deploy:
