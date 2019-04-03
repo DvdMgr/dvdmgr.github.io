@@ -18,6 +18,23 @@
       <li>
         A list of music, film and books I like.
       </li>
+      <li>
+        I may earn a commission if you purchase some of the products listed
+        below, at no additional cost for you.
+      </li>
+    </ul>
+
+    <hr/>
+
+    <!-- Books -->
+
+    <h4>Books</h4>
+    <ul>
+      {{#books}}
+        <li>
+          <a href="{{link}}">{{title}} - {{author}}</a>
+        </li>
+      {{/books}}
     </ul>
 
     <hr/>
@@ -27,11 +44,13 @@
     <h4>Audio</h4>
     <ul>
       {{#audio}}
-      <li>
-        <a href="{{link}}">{{author}} - {{title}}</a>
-      </li>
+        <li>
+          <a href="{{link}}">{{author}} - {{title}}</a>
+        </li>
       {{/audio}}
     </ul>
 
+    <!-- Amazon OneLink -->
+    <div id="amzn-assoc-ad-b4893a2e-9614-47f1-ab26-f973f7fb68f8"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=b4893a2e-9614-47f1-ab26-f973f7fb68f8"></script>
   </body>
 </html>
