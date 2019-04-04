@@ -41,14 +41,16 @@
 
     <!-- Audio -->
 
-    <h4>Audio</h4>
-    <ul>
-      {{#audio}}
-        <li>
-          <a href="{{link}}">{{author}} - {{title}}</a>
-        </li>
-      {{/audio}}
-    </ul>
+    {{#audio}}
+      <h4>Audio</h4>
+      <ul>
+        {{#audio}}
+          <li>
+            <a href="{{link}}">{{author}} - {{title}}</a>
+          </li>
+        {{/audio}}
+      </ul>
+    {{/audio}}
 
     <!-- Amazon OneLink -->
     <div id="amzn-assoc-ad-b4893a2e-9614-47f1-ab26-f973f7fb68f8"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=b4893a2e-9614-47f1-ab26-f973f7fb68f8"></script>
