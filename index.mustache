@@ -22,6 +22,19 @@
 
     <hr/>
 
+    <!-- Projects -->
+
+    <h4>Projects</h4>
+    <ul>
+      {{#projects}}
+        <li>
+          <a href="{{permalink}}">{{title}}</a>
+        </li>
+      {{/projects}}
+    </ul>
+
+    <hr/>
+
     <!-- Publications -->
 
     <h4>Publications</h4>
@@ -39,19 +52,6 @@
           {{/doi}}
         </li>
       {{/publications}}
-    </ul>
-
-    <hr/>
-
-    <!-- Projects -->
-
-    <h4>Projects</h4>
-    <ul>
-      {{#projects}}
-        <li>
-          <a href="{{permalink}}">{{title}}</a>
-        </li>
-      {{/projects}}
     </ul>
 
     <hr/>
