@@ -38,6 +38,12 @@
       "title": "A Simulation Execution Manager for ns-3: Encouraging reproducibility and simplifying statistical analysis of ns-3 simulations",
       "howpublished": "Proceedings of the 22nd International ACM Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
       "doi": "10.1145/3345768.3355942"
+    },
+    {
+      "authors": "D. Magrin, M. Capuzzo, A, Zanella, M. Zorzi",
+      "title": "A Complete LoRaWAN Model for Single-Gateway Scenarios",
+      "howpublished": "ArXiV Preprint",
+      "link": "https://arxiv.org/abs/1912.01285"
     }
   ],
   "posts" : [
