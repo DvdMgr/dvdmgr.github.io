@@ -56,7 +56,7 @@
   "projects": [
     {
       "title": "A Simulation Execution Manager for ns-3",
-      "permalink": "https://github.com/DvdMgr/sem"
+      "permalink": "https://github.com/signetlabdei/sem"
     },
     {
       "title": "LoRaWAN ns-3 module",
