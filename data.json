@@ -1,66 +1,73 @@
 {
-  "publications": [
-    {
-      "authors": "D. Magrin, M. Centenaro and L. Vangelista",
-      "title": "Performance evaluation of LoRa networks in a smart city scenario",
-      "howpublished": "2017 IEEE International Conference on Communications (ICC)",
-      "place": "Paris",
-      "doi": "10.1109/ICC.2017.7996384"
-    },
-    {
-      "authors": "M. Capuzzo, D. Magrin and A. Zanella",
-      "title": "Confirmed Traffic in LoRaWAN: Pitfalls and Countermeasures",
-      "howpublished": "2018 17th Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net)",
-      "place": "Capri",
-      "doi": "10.23919/MedHocNet.2018.8407095"
-    },
-    {
-      "authors": "M. Capuzzo, D. Magrin and A. Zanella",
-      "title": "Mathematical Modeling of LoRaWAN Performance with Bi-directional Traffic",
-      "howpublished": "2018 IEEE Global Communications Conference (Globecom)",
-      "place": "Abu Dhabi",
-      "doi": "10.1109/GLOCOM.2018.8647351"
-    },
-    {
-      "authors": "D. Magrin, C. Pielli, C. Stefanovic, M. Zorzi",
-      "title": "Enabling LTE RACH collision multiplicity detection via machine learning",
-      "howpublished": "2019 17th International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WIOPT)",
-      "place": "Avignon",
-    },
-    {
-      "authors": "D. Magrin, M. Capuzzo, A. Zanella",
-      "title": "A Thorough Study of LoRaWAN Performance Under Different Parameter Settings",
-      "howpublished": "IEEE Internet of Things Journal",
-      "doi": "10.1109/JIOT.2019.2946487"
-    },
-    {
-      "authors": "D. Magrin, D. Zhou, M. Zorzi",
-      "title": "A Simulation Execution Manager for ns-3: Encouraging reproducibility and simplifying statistical analysis of ns-3 simulations",
-      "howpublished": "Proceedings of the 22nd International ACM Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
-      "doi": "10.1145/3345768.3355942"
-    },
-    {
-      "authors": "D. Magrin, M. Capuzzo, A, Zanella, M. Zorzi",
-      "title": "A Complete LoRaWAN Model for Single-Gateway Scenarios",
-      "howpublished": "ArXiV Preprint",
-      "link": "https://arxiv.org/abs/1912.01285"
-    }
-  ],
-  "posts" : [
-    {
-      "title": "Spacemacs for ns-3 development",
-      "permalink": "spacemacs-ns3",
-      "date": "2018-05-21"
-    }
-  ],
-  "projects": [
-    {
-      "title": "A Simulation Execution Manager for ns-3",
-      "permalink": "https://github.com/signetlabdei/sem"
-    },
-    {
-      "title": "LoRaWAN ns-3 module",
-      "permalink": "https://github.com/signetlabdei/lorawan"
-    }
-  ]
+    "publications": [
+        {
+            "authors": "D. Magrin, M. Centenaro and L. Vangelista",
+            "title": "Performance evaluation of LoRa networks in a smart city scenario",
+            "howpublished": "2017 IEEE International Conference on Communications (ICC)",
+            "place": "Paris",
+            "doi": "10.1109/ICC.2017.7996384"
+        },
+        {
+            "authors": "M. Capuzzo, D. Magrin and A. Zanella",
+            "title": "Confirmed Traffic in LoRaWAN: Pitfalls and Countermeasures",
+            "howpublished": "2018 17th Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net)",
+            "place": "Capri",
+            "doi": "10.23919/MedHocNet.2018.8407095"
+        },
+        {
+            "authors": "M. Capuzzo, D. Magrin and A. Zanella",
+            "title": "Mathematical Modeling of LoRaWAN Performance with Bi-directional Traffic",
+            "howpublished": "2018 IEEE Global Communications Conference (Globecom)",
+            "place": "Abu Dhabi",
+            "doi": "10.1109/GLOCOM.2018.8647351"
+        },
+        {
+            "authors": "D. Magrin, C. Pielli, C. Stefanovic, M. Zorzi",
+            "title": "Enabling LTE RACH collision multiplicity detection via machine learning",
+            "howpublished": "2019 17th International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WIOPT)",
+            "place": "Avignon",
+        },
+        {
+            "authors": "D. Magrin, M. Capuzzo, A. Zanella",
+            "title": "A Thorough Study of LoRaWAN Performance Under Different Parameter Settings",
+            "howpublished": "IEEE Internet of Things Journal",
+            "doi": "10.1109/JIOT.2019.2946487"
+        },
+        {
+            "authors": "D. Magrin, D. Zhou, M. Zorzi",
+            "title": "A Simulation Execution Manager for ns-3: Encouraging reproducibility and simplifying statistical analysis of ns-3 simulations",
+            "howpublished": "Proceedings of the 22nd International ACM Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+            "doi": "10.1145/3345768.3355942"
+        },
+        {
+            "authors": "D. Magrin, M. Capuzzo, A, Zanella, M. Zorzi",
+            "title": "A Complete LoRaWAN Model for Single-Gateway Scenarios",
+            "howpublished": "ArXiV Preprint",
+            "link": "https://arxiv.org/abs/1912.01285"
+        }
+    ],
+    "links" : [
+        {
+            "title": "Colormaps",
+            "description": "Should I use a sequential or a diverging colormap?",
+            "permalink": "https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html",
+        }
+    ],
+    "posts" : [
+        {
+            "title": "Sequential and Divergent Colormaps",
+            "permalink": "colormaps",
+            "date": "2020-03-20"
+        }
+    ],
+    "projects": [
+        {
+            "title": "A Simulation Execution Manager for ns-3",
+            "permalink": "https://github.com/signetlabdei/sem"
+        },
+        {
+            "title": "LoRaWAN ns-3 module",
+            "permalink": "https://github.com/signetlabdei/lorawan"
+        }
+    ]
 }

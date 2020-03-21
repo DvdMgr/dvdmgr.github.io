@@ -24,6 +24,11 @@
       </li>
     </ul>
 
+    <ul>
+        <li>Email: hello@magr.in</li>
+        <li>Everywhere else: DvdMgr</li>
+    </ul>
+
     <hr/>
 
     <!-- Projects -->
@@ -60,13 +65,18 @@
 
     <hr/>
 
-    <!-- Contacts -->
+    <!-- Blog -->
 
-    <h4>Contacts</h4>
+    <h4>Interesting links</h4>
     <ul>
-      <li>Email: hello@magr.in</li>
-      <li>Everywhere else: DvdMgr</li>
+        {{#links}}
+            <li>
+                <p><a href="{{permalink}}">{{title}}</a> - {{description}}</p>
+            </li>
+        {{/links}}
     </ul>
+
+    <br>
 
   </body>
 </html>
