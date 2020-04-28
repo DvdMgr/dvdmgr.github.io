@@ -1,0 +1,19 @@
+#+title: Davide Magrin
+#+author: Davide Magrin
+
+PhD student at the University of Padova
+
+Simulation and mathematical modeling for the design and performance evaluation
+of LoRaWAN, LTE and 802.11ax networks.
+
+Email: hello@magr.in
+
+Everywhere else: DvdMgr
+
+-----
+
+* Research Work
+
+ - [[https://github.com/signetlabdei/sem][SEM]] :: A python library to run ns-3 simulation campaigns and analyze results.
+ - [[https://github.com/signetlabdei/lorawan][lorawan]] :: An ns-3 module to simulate LoRaWAN networks.
+ - [[file:pubs.org][Publications]] :: List of my publications.

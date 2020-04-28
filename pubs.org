@@ -1,0 +1,24 @@
+#+title: Publications
+#+author: Davide Magrin
+
+LoRaWAN:
+
+- cite:magrin2017perfor :: Original paper presenting the LoRaWAN ns-3 module
+- cite:capuzzo2018confirloraw :: Using the LoRaWAN module to gain insight on the
+  protocol's peculiarities
+- cite:capuzzo2018mathem :: Using a mathematical model to assess LoRaWAN
+  performance and experiment with alternative configurations and settings
+- cite:magrin2020thorough :: In-depth simulative analysis of LoRaWAN performance
+
+LTE:
+
+- cite:magrin2019enabling :: Using machine learning to detect the multiplicity
+  of collisions in LTE Random Access
+
+SEM:
+
+- cite:magrin2019sem :: Original paper presenting SEM
+
+-----
+
+[[bibliography:~/org/refs.bib]]
