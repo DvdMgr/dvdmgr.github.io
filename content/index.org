@@ -16,4 +16,4 @@ Everywhere else: DvdMgr
 
  - [[https://github.com/signetlabdei/sem][SEM]] :: A python library to run ns-3 simulation campaigns and analyze results.
  - [[https://github.com/signetlabdei/lorawan][lorawan]] :: An ns-3 module to simulate LoRaWAN networks.
- - [[file:pubs.org][Publications]] :: List of my publications.
+ - [[https://scholar.google.com/citations?user=YlFy3N8AAAAJ][Publications]] :: List of my publications.
