@@ -1,7 +1,7 @@
 #+title: Davide Magrin
 #+author: Davide Magrin
 
-PhD student at the University of Padova
+Postdoc at the University of Naples Federico II
 
 Simulation and mathematical modeling for the design and performance evaluation
 of LoRaWAN, LTE and 802.11ax networks.
