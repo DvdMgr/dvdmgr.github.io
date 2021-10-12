@@ -1,0 +1,83 @@
+#+title: Simulation of LoRaWAN Networks
+#+author: Davide Magrin
+#+options: toc:nil
+
+These notes summarize the research activity I completed during my PhD at the
+University of Padova, investigating the performance of LoRaWAN networks.
+
+-----
+
+#+TOC: headlines 3
+
+-----
+
+* What is LoRaWAN?
+
+** The LoRa modulation
+    :PROPERTIES:
+    :CUSTOM_ID: lora
+    :END:
+
+*** Chirp Spread Spectrum (CSS)
+    :PROPERTIES:
+    :CUSTOM_ID: css
+    :END:
+    This is a statement.[fn:1]
+
+*** Spreading Factors (SF)
+
+** Network architecture
+
+#+begin_src artist :export code
+                     +-----------------+
+                     |                 |
+                     |      NS         |
+                     |                 |
+                     +-----------------+
+                              |
+         +--------------------+-----------------+
+         |                                      |
+         v                                      v
+  +--------------+                      +--------------+
+  |              |                      |              |
+  |      GW      |                      |      GW      |
+  |              |                      |              |
+  +--------------+                      +--------------+
+
+
+                             ED2
+
+
+
+       ED1                                        ED3
+#+end_src
+
+** The Network Server (NS)
+
+* Simulation and Analysis
+
+** How we analyze simulation results
+
+  #+begin_src python :session example :tangle yes :results output :exports both
+    import sem
+    print("Hello World")
+  #+end_src
+
+  #+RESULTS:
+  : Hello World
+
+** The analytical model
+
+* Confirmed Traffic
+
+* Adaptive Data Rate
+
+  This is a reference cite:magrin2017perfor.
+
+* References
+
+[[bibliography:~/org/refs.bib]]
+
+* Footnotes
+
+[fn:1] Stuff.

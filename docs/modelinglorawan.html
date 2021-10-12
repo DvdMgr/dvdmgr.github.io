@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-10-12 Tue 22:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simulation of LoRaWAN Networks</title>
+<meta name="author" content="Davide Magrin" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+                     <link rel="preconnect" href="https://fonts.googleapis.com">
+                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Simulation of LoRaWAN Networks</h1>
+<p>
+These notes summarize the research activity I completed during my PhD at the
+University of Padova, investigating the performance of LoRaWAN networks.
+</p>
+
+<hr />
+
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org2fecb52">What is LoRaWAN?</a>
+<ul>
+<li><a href="#lora">The LoRa modulation</a>
+<ul>
+<li><a href="#css">Chirp Spread Spectrum (CSS)</a></li>
+<li><a href="#orgca842ab">Spreading Factors (SF)</a></li>
+</ul>
+</li>
+<li><a href="#org5e15852">Network architecture</a></li>
+<li><a href="#orgec72f3b">The Network Server (NS)</a></li>
+</ul>
+</li>
+<li><a href="#org915a737">Simulation and Analysis</a>
+<ul>
+<li><a href="#org2a6640d">How we analyze simulation results</a></li>
+<li><a href="#orgaec0bdf">The analytical model</a></li>
+</ul>
+</li>
+<li><a href="#orga4d3c0b">Confirmed Traffic</a></li>
+<li><a href="#org4a8f3c2">Adaptive Data Rate</a></li>
+<li><a href="#orgd67762c">References</a></li>
+</ul>
+</div>
+</div>
+
+<hr />
+
+<div id="outline-container-org2fecb52" class="outline-2">
+<h2 id="org2fecb52">What is LoRaWAN?</h2>
+<div class="outline-text-2" id="text-org2fecb52">
+</div>
+<div id="outline-container-lora" class="outline-3">
+<h3 id="lora">The LoRa modulation</h3>
+<div class="outline-text-3" id="text-lora">
+</div>
+
+<div id="outline-container-css" class="outline-4">
+<h4 id="css">Chirp Spread Spectrum (CSS)</h4>
+<div class="outline-text-4" id="text-css">
+<p>
+This is a statement.<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgca842ab" class="outline-4">
+<h4 id="orgca842ab">Spreading Factors (SF)</h4>
+</div>
+</div>
+
+<div id="outline-container-org5e15852" class="outline-3">
+<h3 id="org5e15852">Network architecture</h3>
+<div class="outline-text-3" id="text-org5e15852">
+<div class="org-src-container">
+<pre class="src src-artist">                     +-----------------+
+                     |                 |
+                     |      NS         |
+                     |                 |
+                     +-----------------+
+                              |
+         +--------------------+-----------------+
+         |                                      |
+         v                                      v
+  +--------------+                      +--------------+
+  |              |                      |              |
+  |      GW      |                      |      GW      |
+  |              |                      |              |
+  +--------------+                      +--------------+
+
+
+                             ED2
+
+
+
+       ED1                                        ED3
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgec72f3b" class="outline-3">
+<h3 id="orgec72f3b">The Network Server (NS)</h3>
+</div>
+</div>
+
+<div id="outline-container-org915a737" class="outline-2">
+<h2 id="org915a737">Simulation and Analysis</h2>
+<div class="outline-text-2" id="text-org915a737">
+</div>
+<div id="outline-container-org2a6640d" class="outline-3">
+<h3 id="org2a6640d">How we analyze simulation results</h3>
+<div class="outline-text-3" id="text-org2a6640d">
+<div class="org-src-container">
+<pre class="src src-python">    <span style="color: #3B6EA8;">import</span> sem
+    <span style="color: #3B6EA8;">print</span>(<span style="color: #4F894C;">"Hello World"</span>)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgaec0bdf" class="outline-3">
+<h3 id="orgaec0bdf">The analytical model</h3>
+</div>
+</div>
+
+<div id="outline-container-orga4d3c0b" class="outline-2">
+<h2 id="orga4d3c0b">Confirmed Traffic</h2>
+</div>
+
+<div id="outline-container-org4a8f3c2" class="outline-2">
+<h2 id="org4a8f3c2">Adaptive Data Rate</h2>
+<div class="outline-text-2" id="text-org4a8f3c2">
+<p>
+This is a reference <a class='org-ref-reference' href="#magrin2017perfor">magrin2017perfor</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd67762c" class="outline-2">
+<h2 id="orgd67762c">References</h2>
+<div class="outline-text-2" id="text-orgd67762c">
+<p>
+<h1 class='org-ref-bib-h1'>Bibliography</h1>
+<ul class='org-ref-bib'><li><a id="magrin2017perfor">[magrin2017perfor]</a> <a name="magrin2017perfor"></a>Davide Magrin, Marco Centenaro & Lorenzo Vangelista, Performance evaluation of LoRa networks in a smart city scenario, in in: IEEE International Conference on Communications (ICC), edited by (2017)</li>
+</ul>
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Stuff.
+</p></div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>
