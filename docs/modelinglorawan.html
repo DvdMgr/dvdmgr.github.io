@@ -1,62 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<!-- 2021-10-12 Tue 22:31 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- 2022-09-26 Mon 16:03 -->
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Simulation of LoRaWAN Networks</title>
 <meta name="author" content="Davide Magrin" />
 <meta name="generator" content="Org Mode" />
+<meta name="description" content="Davide Magrin's Personal Website.">
 <link rel="stylesheet" href="css/style.css" type="text/css"/>
-                     <link rel="preconnect" href="https://fonts.googleapis.com">
-                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="content" class="content">
+<header>
 <h1 class="title">Simulation of LoRaWAN Networks</h1>
-<p>
+</header><p>
 These notes summarize the research activity I completed during my PhD at the
 University of Padova, investigating the performance of LoRaWAN networks.
 </p>
 
-<hr />
+<hr>
 
-<div id="table-of-contents" role="doc-toc">
+<nav id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org2fecb52">What is LoRaWAN?</a>
+<li><a href="#org12024cf">What is LoRaWAN?</a>
 <ul>
 <li><a href="#lora">The LoRa modulation</a>
 <ul>
 <li><a href="#css">Chirp Spread Spectrum (CSS)</a></li>
-<li><a href="#orgca842ab">Spreading Factors (SF)</a></li>
+<li><a href="#org206c362">Spreading Factors (SF)</a></li>
 </ul>
 </li>
-<li><a href="#org5e15852">Network architecture</a></li>
-<li><a href="#orgec72f3b">The Network Server (NS)</a></li>
+<li><a href="#orge7a1685">Network architecture</a></li>
+<li><a href="#orgd2b94dc">The Network Server (NS)</a></li>
 </ul>
 </li>
-<li><a href="#org915a737">Simulation and Analysis</a>
+<li><a href="#org829b9f0">Simulation and Analysis</a>
 <ul>
-<li><a href="#org2a6640d">How we analyze simulation results</a></li>
-<li><a href="#orgaec0bdf">The analytical model</a></li>
+<li><a href="#org1f271fc">How we analyze simulation results</a></li>
+<li><a href="#orgd1429b3">The analytical model</a></li>
 </ul>
 </li>
-<li><a href="#orga4d3c0b">Confirmed Traffic</a></li>
-<li><a href="#org4a8f3c2">Adaptive Data Rate</a></li>
-<li><a href="#orgd67762c">References</a></li>
+<li><a href="#org5c613e4">Confirmed Traffic</a></li>
+<li><a href="#org350b858">Adaptive Data Rate</a></li>
+<li><a href="#orgb96af67">References</a></li>
 </ul>
 </div>
-</div>
+</nav>
 
-<hr />
+<hr>
 
-<div id="outline-container-org2fecb52" class="outline-2">
-<h2 id="org2fecb52">What is LoRaWAN?</h2>
-<div class="outline-text-2" id="text-org2fecb52">
+<div id="outline-container-org12024cf" class="outline-2">
+<h2 id="org12024cf">What is LoRaWAN?</h2>
+<div class="outline-text-2" id="text-org12024cf">
 </div>
 <div id="outline-container-lora" class="outline-3">
 <h3 id="lora">The LoRa modulation</h3>
@@ -72,14 +73,14 @@ This is a statement.<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-ba
 </div>
 </div>
 
-<div id="outline-container-orgca842ab" class="outline-4">
-<h4 id="orgca842ab">Spreading Factors (SF)</h4>
+<div id="outline-container-org206c362" class="outline-4">
+<h4 id="org206c362">Spreading Factors (SF)</h4>
 </div>
 </div>
 
-<div id="outline-container-org5e15852" class="outline-3">
-<h3 id="org5e15852">Network architecture</h3>
-<div class="outline-text-3" id="text-org5e15852">
+<div id="outline-container-orge7a1685" class="outline-3">
+<h3 id="orge7a1685">Network architecture</h3>
+<div class="outline-text-3" id="text-orge7a1685">
 <div class="org-src-container">
 <pre class="src src-artist">                     +-----------------+
                      |                 |
@@ -107,51 +108,49 @@ This is a statement.<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-ba
 </div>
 </div>
 
-<div id="outline-container-orgec72f3b" class="outline-3">
-<h3 id="orgec72f3b">The Network Server (NS)</h3>
+<div id="outline-container-orgd2b94dc" class="outline-3">
+<h3 id="orgd2b94dc">The Network Server (NS)</h3>
 </div>
 </div>
 
-<div id="outline-container-org915a737" class="outline-2">
-<h2 id="org915a737">Simulation and Analysis</h2>
-<div class="outline-text-2" id="text-org915a737">
+<div id="outline-container-org829b9f0" class="outline-2">
+<h2 id="org829b9f0">Simulation and Analysis</h2>
+<div class="outline-text-2" id="text-org829b9f0">
 </div>
-<div id="outline-container-org2a6640d" class="outline-3">
-<h3 id="org2a6640d">How we analyze simulation results</h3>
-<div class="outline-text-3" id="text-org2a6640d">
+<div id="outline-container-org1f271fc" class="outline-3">
+<h3 id="org1f271fc">How we analyze simulation results</h3>
+<div class="outline-text-3" id="text-org1f271fc">
 <div class="org-src-container">
-<pre class="src src-python">    <span style="color: #3B6EA8;">import</span> sem
-    <span style="color: #3B6EA8;">print</span>(<span style="color: #4F894C;">"Hello World"</span>)
+<pre class="src src-python">    <span style="color: #81A1C1;">import</span> sem
+    <span style="color: #81A1C1;">print</span>(<span style="color: #A3BE8C;">"Hello World"</span>)
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgaec0bdf" class="outline-3">
-<h3 id="orgaec0bdf">The analytical model</h3>
+<div id="outline-container-orgd1429b3" class="outline-3">
+<h3 id="orgd1429b3">The analytical model</h3>
 </div>
 </div>
 
-<div id="outline-container-orga4d3c0b" class="outline-2">
-<h2 id="orga4d3c0b">Confirmed Traffic</h2>
+<div id="outline-container-org5c613e4" class="outline-2">
+<h2 id="org5c613e4">Confirmed Traffic</h2>
 </div>
 
-<div id="outline-container-org4a8f3c2" class="outline-2">
-<h2 id="org4a8f3c2">Adaptive Data Rate</h2>
-<div class="outline-text-2" id="text-org4a8f3c2">
+<div id="outline-container-org350b858" class="outline-2">
+<h2 id="org350b858">Adaptive Data Rate</h2>
+<div class="outline-text-2" id="text-org350b858">
 <p>
-This is a reference <a class='org-ref-reference' href="#magrin2017perfor">magrin2017perfor</a>.
+This is a reference <a href="magrin2017perfor">magrin2017perfor</a>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgd67762c" class="outline-2">
-<h2 id="orgd67762c">References</h2>
-<div class="outline-text-2" id="text-orgd67762c">
+<div id="outline-container-orgb96af67" class="outline-2">
+<h2 id="orgb96af67">References</h2>
+<div class="outline-text-2" id="text-orgb96af67">
 <p>
-<h1 class='org-ref-bib-h1'>Bibliography</h1>
-<ul class='org-ref-bib'><li><a id="magrin2017perfor">[magrin2017perfor]</a> <a name="magrin2017perfor"></a>Davide Magrin, Marco Centenaro & Lorenzo Vangelista, Performance evaluation of LoRa networks in a smart city scenario, in in: IEEE International Conference on Communications (ICC), edited by (2017)</li>
-</ul>
+<a href="~/org/refs.bib">~/org/refs.bib</a>
 </p>
 </div>
 </div>
